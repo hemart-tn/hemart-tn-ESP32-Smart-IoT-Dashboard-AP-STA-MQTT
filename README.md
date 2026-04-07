@@ -95,7 +95,27 @@ http://192.168.x.x
 ```id="cloud1"
 https://hemart-tn.github.io/esp32-iot-dashboard/
 ```
+## 📸 Hasil Project
 
+1. Koneksi WiFi ESP32 (Access Point)
+<p align="center"> <img src="https://github.com/user-attachments/assets/347e2330-a174-46d8-8b07-35d1d33e5657" width="300"> </p>
+
+Keterangan:
+Gambar di atas menunjukkan perangkat smartphone yang terhubung langsung ke jaringan WiFi yang dibuat oleh ESP32 (mode Access Point). Pengguna dapat mengakses web dashboard melalui alamat IP 192.168.4.1 tanpa menggunakan koneksi internet.
+
+2. Hasil Pembacaan Sensor Jarak (HC-SR04)
+<p align="center"> <img src="https://github.com/user-attachments/assets/9fbf9cef-488c-4c43-ad5e-a23be9a38f71" width="300"> </p>
+
+Keterangan:
+Gambar menunjukkan tampilan web dashboard yang menampilkan hasil pembacaan sensor ultrasonik HC-SR04 secara realtime. Nilai jarak yang terbaca akan berubah sesuai dengan objek yang berada di depan sensor.
+
+3. Hasil Kontrol LED RGB
+<p align="center"> <img src="https://github.com/user-attachments/assets/0c14e30e-2bce-4e50-83cf-79dd45e34336" width="300"> </p>
+
+Keterangan:
+Gambar menunjukkan LED RGB yang dapat dikontrol melalui web dashboard menggunakan slider. Perubahan nilai warna (Red, Green, Blue) akan langsung mempengaruhi warna LED secara realtime.
+
+---
 ---
 
 ## 📡 MQTT Topic
