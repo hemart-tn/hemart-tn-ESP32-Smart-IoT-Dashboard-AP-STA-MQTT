@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #6a0dad, #9b30ff);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* CARD */
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    padding: 25px;
+    border-radius: 20px;
+    width: 320px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* DISTANCE */
+.distance {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 15px rgba(255,255,255,0.8);
+    transition: 0.2s;
+}
+
+/* SLIDER */
+input[type=range] {
+    width: 100%;
+    margin: 15px 0;
+}
+
+/* RGB THUMB */
+#sliderRed::-webkit-slider-thumb { background: red; }
+#sliderGreen::-webkit-slider-thumb { background: lime; }
+#sliderBlue::-webkit-slider-thumb { background: cyan; }
+
+/* RGB BAR */
+.rgb-bars {
+    margin-top: 20px;
+}
+
+.bar {
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 0%;
+    transition: 0.2s;
+}
+
+.red { background: red; }
+.green { background: lime; }
+.blue { background: cyan; }
+
+canvas {
+    width: 100%;
+    height: 200px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* efek terang gelap bar */
+.bar {
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 0%;
+    transition: 0.2s;
+
+    /* 🔥 HAPUS brightness statis */
+    /* filter: brightness(0.5); */
+
+    /* ✨ TAMBAHAN GLOW */
+    box-shadow: 0 0 5px currentColor;
+}

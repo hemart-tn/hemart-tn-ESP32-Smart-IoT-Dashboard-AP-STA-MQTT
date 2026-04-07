@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ESP32 IoT Cloud Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- MQTT -->
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🌍 ESP32 IoT Cloud Dashboard</h1>
+
+<div class="card">
+    <h2>Distance Sensor</h2>
+    <p class="distance">
+        <span id="distance">0</span> cm
+    </p>
+</div>
+
+<div class="card">
+    <h2>📊 Realtime Distance Graph</h2>
+    <canvas id="chart"></canvas>
+</div>
+
+<div class="card">
+    <h2>RGB Slider Control</h2>
+
+    <label>Red</label>
+    <input type="range" min="0" max="255" value="0" id="sliderRed">
+    <p>RED: <input type="number" id="valueRed" value="0" readonly></p>
+
+    <label>Green</label>
+    <input type="range" min="0" max="255" value="0" id="sliderGreen">
+    <p>GREEN: <input type="number" id="valueGreen" value="0" readonly></p>
+
+    <label>Blue</label>
+    <input type="range" min="0" max="255" value="0" id="sliderBlue">
+    <p>BLUE: <input type="number" id="valueBlue" value="0" readonly></p>
+
+    <div class="rgb-bars">
+        <div class="bar red" id="barRed"></div>
+        <div class="bar green" id="barGreen"></div>
+        <div class="bar blue" id="barBlue"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
