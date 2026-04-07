@@ -97,25 +97,18 @@ https://hemart-tn.github.io/esp32-iot-dashboard/
 ```
 ## 📸 Hasil Project
 
-1. Koneksi WiFi ESP32 (Access Point)
-<p align="center"> <img src="https://github.com/user-attachments/assets/347e2330-a174-46d8-8b07-35d1d33e5657" width="300"> </p>
+1. Hasil Pembacaan Sensor Jarak (HC-SR04)
+<p align="center"> <img src="https://github.com/user-attachments/assets/aad884a5-e6d5-426c-acc1-13e778bf1224" width="300"> </p>
 
 Keterangan:
-Gambar di atas menunjukkan perangkat smartphone yang terhubung langsung ke jaringan WiFi yang dibuat oleh ESP32 (mode Access Point). Pengguna dapat mengakses web dashboard melalui alamat IP 192.168.4.1 tanpa menggunakan koneksi internet.
+Gambar di atas menunjukkan penggunaan dashboard dengan 3 perangkan yang berbeda dan cara koneksi yang berbeda (web hosting, STA, AP). Semuanya menunjukkan kesesuaian dalam menunjukkan data jarak yang diperoleh sensor ultrasonik.
 
-2. Hasil Pembacaan Sensor Jarak (HC-SR04)
-<p align="center"> <img src="https://github.com/user-attachments/assets/9fbf9cef-488c-4c43-ad5e-a23be9a38f71" width="300"> </p>
-
-Keterangan:
-Gambar menunjukkan tampilan web dashboard yang menampilkan hasil pembacaan sensor ultrasonik HC-SR04 secara realtime. Nilai jarak yang terbaca akan berubah sesuai dengan objek yang berada di depan sensor.
-
-3. Hasil Kontrol LED RGB
-<p align="center"> <img src="https://github.com/user-attachments/assets/0c14e30e-2bce-4e50-83cf-79dd45e34336" width="300"> </p>
+2. Hasil Kontrol LED RGB
+<p align="center"> <img src="https://github.com/user-attachments/assets/5fa3b5d9-243b-4c32-abe0-44804146ebd2" width="300"> </p>
 
 Keterangan:
-Gambar menunjukkan LED RGB yang dapat dikontrol melalui web dashboard menggunakan slider. Perubahan nilai warna (Red, Green, Blue) akan langsung mempengaruhi warna LED secara realtime.
+Gambar menunjukkan LED RGB yang dapat dikontrol melalui web dashboard menggunakan slider. Perubahan nilai warna (Red, Green, Blue) akan langsung mempengaruhi warna LED secara realtime. Ketiga perangkat dengan cara koneksi yang berbeda semuanya dapat mengontrol led tersebut secara bergantian.
 
----
 ---
 
 ## 📡 MQTT Topic
